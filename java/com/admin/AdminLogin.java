@@ -57,7 +57,7 @@ public class AdminLogin extends HttpServlet {
 				int update = DatabaseConnection.insertUpdateFromSqlQuery("update tblcaptcha set captcha='"+ newRandomCaptcha + "'");
 			}
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 	}
 
